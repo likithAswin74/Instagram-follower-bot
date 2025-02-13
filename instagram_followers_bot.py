@@ -31,7 +31,7 @@ class InstaFollower:
 
         # clicking the not now button
         time.sleep(8)
-        not_now_button = self.driver.find_element(By.CSS_SELECTOR, ".x78zum5 div")
+        not_now_button = self.driver.find_element(By.CSS_SELECTOR, ".xdt5ytf div")
         not_now_button.click()
 
         # clicking the not now button on avoid notification
